@@ -20,3 +20,6 @@ Dataset Visualization
 Images are resized to 64 × 64 × 3 using CV2 in order to improve the computing efficiency of the classifier.
 Stratified splitting is used to split the dataset into 80:20 Training-Testing ratio. The training dataset is further split into 90:10 Training-Validation set.
 Thus, the final training set has 16145 images; the final validation set has 1794 images and the final testing set has 4485 images.
+# Workflow
+<img src="./imgs/img1.jpeg">
+
