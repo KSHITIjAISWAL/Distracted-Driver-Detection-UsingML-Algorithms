@@ -24,12 +24,14 @@ Thus, the final training set has 16145 images; the final validation set has 1794
 <img src="./imgs/img2.jpeg">
 # Feature Extraction
 Following feature extraction techniques were used for extracting features from the images:
-## HOG — The histogram of oriented gradients
+* HOG — The histogram of oriented gradients
 (HOG) is a feature descriptor used in computer vision and image processing for the purpose of object detection. The technique counts occurrences of gradient orientation in localized portions of an image.
-## LBP — Local Binary Pattern (LBP)
+* LBP — Local Binary Pattern (LBP)
 LBP is a simple yet very efficient texture operator which labels the pixels of an image by thresholding the neighbourhood of each pixel and considers the result as a binary number.
-## Color Histogram
+
+* Color Histogram
 A color histogram is a representation of the distribution of colors in an image. For digital images, a color histogram represents the number of pixels that have colors in each of a fixed list of color ranges, that span the image’s color space.
-## KAZE
+* KAZE
 KAZE is a 2D feature detection and description method that operates completely in nonlinear scale space.Features extracted using Feature Extraction Techniques
+<img src="./imgs/img3.jpeg">
 
