@@ -1,7 +1,7 @@
 # Machine Learning Techniques for Distracted Driver Detection
 Driving a car is a complex task, and it requires complete attention. Distracted driving is any activity that takes away the driver’s attention from the road. Approximately 1.35 million people die each year as a result of road traffic crashes.
 Road traffic crashes cost most countries 3% of their gross domestic product So, our aim/goal in this project is to detect if the car driver is driving safe or performing any activity that might result in an accident or any harm to others, by using various Machine Learning Models to classify the provided images into different categories of Distraction.
-# Dataset
+# Dataset:
 The dataset used is State Farm Distracted Driver Detection taken from https://www.kaggle.com/c/state-farm-distracted-driver-detection/data.<br>
 The dataset has 22424 training images, 79727 testing images and has 10 classes. The images are coloured and are of size 640×480 pixels. The classes are labelled as follows:
 c0: safe driving
@@ -23,7 +23,7 @@ Thus, the final training set has 16145 images; the final validation set has 1794
 # Workflow
 <img src="./imgs/img2.jpeg">
 
-# Feature Extraction
+# Feature Extraction Techniques:
 
 Following feature extraction techniques were used for extracting features from the images:
 * HOG — The histogram of oriented gradients
@@ -55,7 +55,7 @@ LDA is applied on combined features which are obtained after applying PCA to fur
  * KNN -
  The KNN algorithm assumes that similar things exist in close proximity. In other words, similar things are near to each other KNN captures the idea of similarity (sometimes     called distance, proximity, or closeness).
  
-# Ensembling Methods
+# Ensembling Methods:
 * XGBoost -
 XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a gradient boosting framework. In prediction problems involving unstructured data (images, text, etc.) artificial neural networks tend to outperform all other algorithms or frameworks.
 * Bagging -
@@ -63,8 +63,8 @@ Bootstrap aggregating also called bagging (from bootstrap aggregating), is a mac
 * ADABoost -
 AdaBoost algorithm, short for Adaptive Boosting, is a Boosting technique that is used as an Ensemble Method in Machine Learning. It is called Adaptive Boosting as the weights are re-assigned to each instance, with higher weights to incorrectly classified instances.
 
-# Optimal Parameters
+# Optimal Parameters:
 <img src="./Plots/Optimal-parameters.jpeg">
 
-# Accuracy Obtained
+# Accuracy Obtained:
 <img src="./Plots/Accuracies.jpeg">
