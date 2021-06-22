@@ -62,4 +62,7 @@ XGBoost is a decision-tree-based ensemble Machine Learning algorithm that uses a
 Bootstrap aggregating also called bagging (from bootstrap aggregating), is a machine learning ensemble meta-algorithm designed to improve the stability and accuracy of machine learning algorithms used in statistical classification and regression. It also reduces variance and helps to avoid overfitting.
 * ADABoost -
 AdaBoost algorithm, short for Adaptive Boosting, is a Boosting technique that is used as an Ensemble Method in Machine Learning. It is called Adaptive Boosting as the weights are re-assigned to each instance, with higher weights to incorrectly classified instances.
- 
+# Optimal Parameters
+<img src="./Plots/Optimal-parameters.jpeg">
+# Accuracy Obtained
+<img src="./Plots/Accuracies.jpeg">
